@@ -1,0 +1,167 @@
+版本说明：
+v_1:
+类别识别：多模式匹配
+实体识别：相似度，余弦，分词为单个汉字
+
+
+name
+产品介绍：product_introduction，
+match (n:yuan) where n.name=shipin return n
+
+
+
+云端业务工作室作为一个标签！！！！！（下面的产品介绍，操作视频作为一个个实体，操作视频与图片直接返回网址！！！）
+企业驾驶舱作为一个标签！！！！！
+数据淘金作为一个标签！！！！
+
+中英文对应的含义：
+
+云端业务工作室：
+产品介绍： product_introduction
+快速入门：quick_start
+发布需求：post_demand
+供应商报价：supplier_quotation
+比较优选：comparative_optimization
+生成订单：create_order
+创建合同：create_contract
+签章：signature
+支付：payment
+履约：honour_agreement
+评价：evaluate
+集团内单位在开票方式的说明：billing_method_within_group
+需要注册的单位填写信息：need_register_fill_information
+税务机关代码：tax_authority_code
+税号：tfn
+开票机号码 ：billing_machine_number
+组件接口：component_interface
+云端业务工作室本机开票：cloud_business_studio_local_billing
+财务中心开票： financial_center_draws_bill
+电子签章:electronic_signature
+招标:call_for_bids
+发快递：send_parcel
+操作视频：make_video
+管理员账号航天云网查看需求和订单：administrator_view_requirements_orders
+平台供求信息评审:platform_supply_demand_review
+监管优选用户:regulatory_preferred_user
+合同审核:contract_review
+合同终止:contract_end
+数据增删改减: data_add_delete_change_subtracte
+
+云端营销:
+产品介绍： product_introduction
+快速入门:quick_start
+人员角色:personal_role
+编码规则:coding_rule
+专用词汇:specialized_vocabulary
+用户注册:user_registration
+供应商发布产品:supplier_releases_products
+营销员加入货架:marketers_join_shelves
+营销员分享产品:sales_share_products
+采购商询价或下单:purchaser_inquiry_order
+供应商报价或生成订单:supplier_quote_generate_order   有问题
+供应商添加合同:supplier_addition_contract
+采购商录入结算信息、支付:buyer_input_settlement_payment
+供应商录入确认收款信息:supplier_input_confirmation_payment
+营销员:salesman
+供应方提交兑付信息:supplier_submits_payment
+营销员确认兑付信息:salesperson_confirms_payment
+什么是营销员:what_is_marketer
+成为营销员:become_marketer
+营销员可以做什么:marketers_do
+营销员销售:salespersons_sales
+查找货源: find_source
+加入货架:join_shelves    有问题
+推广产品服务:promote_products_services
+查看询价单:check_inquiry_sheet
+线下撮合交易:offline_matchmake
+查看订单:check_order    有问题
+确认合同: confirm_contract
+催款: dept
+查看提成金兑付状态:check_commission_payment
+什么企业可以成为卖家:can_be_seller
+如何成为卖家:how_to_be_seller
+卖家销售:seller_sales
+卖家业务:seller_business
+卖家操作:seller_operate
+买家业务:buyer_business
+买家操作:buyer_operate
+买家操作流程:buyer_operation_process
+营销员操作视频:marketers_operate_videos
+卖家操作视频:seller_operation_video
+买家操作视频:buyer_operation_video
+营销人员是否参与合同签署:whether_marketer_involved_contract_sign
+营销员申请提示审核:marketing_application_prompt_review
+申请营销员时无法注册成功:fail_register_applying_salesman
+买家是否可以通过PC端进行流程操作:whether_buyer_operation_through_PC
+团队营销兑付:team_marketing_cash
+生成提成兑付单:generate_commission_receipt
+快速查找本单位指定营销员:quickly_find_unit_marketing_person
+设置兑付率:set_exchange_rate
+维护云端营销产品库:maintain_cloud_market_product_library
+退货如何处理:return_goods
+合同未正常履约: contract_not_properly_performed
+营销人员团队提成分配:marketing_team_commission_distribution
+云端营销过程中遇到问题:cloud_marketing_encountered_problems
+货架产品数量限制:limit_shelf_product_quantity
+营销人员寻找货源:marketers_look_for_sources
+辨别合同营销员关联:identify_relationship_contract_sales_agents
+计算兑付金额:calculate_payment_amount
+查看个人的兑付率:check_payment_rate
+人员类别提成兑付率的规则:rules_commission_rate_personnel
+产品销售给集团内部单位提成:sales_internal_group_commission
+产品的分享推广:product_sharing_promotion
+营销员员工类型:marketing_staff_type
+个人申请营销员:individual_application_sales_promoter
+
+企业驾驶舱：
+产品介绍： product_introduction
+产品定位: product_position
+建设情况:construction_situation
+作用和价值:function_value
+运行环境:operate_env
+数据来源:data_sources
+公司选择:company_choose
+时间选择:time_choose
+数据导出:data_export
+表格功能:table_function
+数据解释和说明:content
+操作视频:
+专有云等交易数据是否会接入企业驾驶舱:
+我的报告图表放在我的报告和放在公司的报告:
+企业驾驶舱-我的报告模块有什么用
+企业驾驶舱指标监控功能，“红绿灯”不同展示说明什么
+云端营销数据的新指标
+示例数据是什么意思
+详细完整的数据在哪下载
+界面上的数据和图片能不能下载
+怎样进行时间选择
+查看子公司的数据
+企业驾驶舱有哪些模块
+企业驾驶舱能看那些数据
+进入企业驾驶舱
+云端业务数据包括什么:
+工资产出比填报数据有问题
+工资产出比很多期初数据确实为0
+工资产出比填报数据的期初时间与期末时间
+企业驾驶舱各界面数据来源
+航天云网的数据不是公司全部的交易数据
+企业驾驶舱查看数据需要注意
+查看自己公司的销售数据
+公告通知
+企业驾驶舱概况
+企业驾驶舱监控
+客户/市场-统计报表
+财务/人力-工资产出比-说明
+财务/人力-工资产出比-数据指标注释
+财务/人力-工资产出比-展示页面数据指标
+我的报告（自助式分析）-创建数据集
+我的报告（自助式分析）-制作报告
+我的报告（自助式分析）-查看报告
+我的报告（自助式分析）-查看报告权限
+客户市场-云端营销专题
+计划/供应-统计报表
+能源能耗-推荐应用
+重要指标统计说明
+
+（1）基于ES的相似度计算!!!!!
+（2）精简问题与标签，比如怎么提交兑付信息，问题应该是怎么，识别出问题，返回兑付信息的内容，兑付信息识别出类别
