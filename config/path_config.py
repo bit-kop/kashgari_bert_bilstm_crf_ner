@@ -1,13 +1,15 @@
 import os
+import pathlib
+import sys
 
-# 用于ner的人民日报语料
-cur_dir = '/'.join(os.path.abspath(__file__).split('/')[:-1])
-path_ner_people_train = os.path.join(cur_dir, 'data/corpus/people_daily/people.train')
-path_ner_people_dev = os.path.join(cur_dir, 'data/corpus/people_daily/people.dev')
-path_ner_people_test = os.path.join(cur_dir, 'data/corpus/people_daily/people.test')
+projectdir = str(pathlib.Path(os.path.abspath(__file__)).parent.parent)
+sys.path.append(projectdir)
+corpus_dir = projectdir+'/data/corpus/people_daily'
 
-# path of BertMode
-model_dir = os.path.join(cur_dir, 'data/chinese_L-12_H-768_A-12/chinese_L-12_H-768_A-12')
-config_name = os.path.join(model_dir, '/bert_config.json')
-ckpt_name = os.path.join(model_dir, '/bert_model.ckpt')
-vocab_file = os.path.join(model_dir, '/vocab.txt')
+train_path = corpus_dir+'/example.train'
+dev_path = corpus_dir+'/example.dev'
+test_path = corpus_dir+'/example.test'
+bert_path = projectdir+'/data/chinese_wwm_ext_L-12_H-768_A-12'
+model_path = projectdir+'/model/my_ner.h5'
+
+print(model_path)
